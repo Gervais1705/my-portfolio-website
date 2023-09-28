@@ -1,4 +1,8 @@
 import React from "react";
+import  ToDo from '../assets/projects/ToDo.jpg';
+import movie from '../assets/projects/movie.jpg';
+import ecom from '../assets/projects/e-com.jpg';
+
 
 const Projects = () => {
   const projects = [
@@ -7,18 +11,22 @@ const Projects = () => {
       description:
         "A movie streaming app to search any movie, see rating and overview.",
       photo: "/src/assets/projects/movie.jpg",
+      demoLink: "https://my-movie-app.gervais-design.com/",
+      
     },
     {
       title: "ToDo List",
       description:
         "A ToDo app  for entering and managing your daily tasks .",
       photo: "/src/assets/projects/ToDo.jpg",
+       demoLink: "https://mytodo-list.gervais-design.com/",
     },
     {
       title: "E-Commerce",
       description:
         "This is a e-commerce app for shopping.",
       photo: "/src/assets/projects/e-com.jpg",
+       demoLink: "https://my-ecomapp.gervais-design.com/",
     },
   ];
   
@@ -68,10 +76,16 @@ const SecondaryButton = ({ text, link }) => (
                 <PrimaryButton text="GitHub" link="https://github.com/zarmo17" />
                    
                 </button>
+                 <a
+              href={project.demoLink} // Use the demoLink from the project
+              target="_blank"
+              rel="noreferrer"
+               >
                 <button className="btn outline py-1.5 px-9 rounded border-none ml-5 text-white ">
-                <SecondaryButton text="Demo" link="https://your-demo-link.com" />
+                <SecondaryButton text="Demo"  />
                 
                 </button>
+                   </a>
               </div>
             </div>
           );
