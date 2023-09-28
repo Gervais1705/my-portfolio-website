@@ -8,12 +8,12 @@ import react from '../../src/assets/icons/React-icon.png';
 
 const About = () => {
   const skills = [
-    { name: "UI & UX DESIGNING", image: "/src/assets/icons/ruler-pen.png" },
-    { name: "WEB DEVELOPMENT", image: "/src/assets/icons/code.png" },
-    { name: "MOBILE DEVELOPMENT", image: "/src/assets/icons/android.png" },
+    { name: "UI & UX DESIGNING", image: ruler },
+    { name: "WEB DEVELOPMENT", image: code },
+    { name: "MOBILE DEVELOPMENT", image: android },
     {
       name: "React App",
-      image: "/src/assets/icons/React-icon.png",
+      image: react
     },
   ];
   return (
