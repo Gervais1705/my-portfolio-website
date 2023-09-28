@@ -10,7 +10,7 @@ const Projects = () => {
       title: "Movie Streaming",
       description:
         "A movie streaming app to search any movie, see rating and overview.",
-      photo: "/src/assets/projects/movie.jpg",
+      photo: movie,
       demoLink: "https://my-movie-app.gervais-design.com/",
       
     },
@@ -18,14 +18,14 @@ const Projects = () => {
       title: "ToDo List",
       description:
         "A ToDo app  for entering and managing your daily tasks .",
-      photo: "/src/assets/projects/ToDo.jpg",
+      photo: ToDo,
        demoLink: "https://mytodo-list.gervais-design.com/",
     },
     {
       title: "E-Commerce",
       description:
         "This is a e-commerce app for shopping.",
-      photo: "/src/assets/projects/e-com.jpg",
+      photo: ecom,
        demoLink: "https://my-ecomapp.gervais-design.com/",
     },
   ];
