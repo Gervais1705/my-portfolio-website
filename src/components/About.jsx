@@ -1,5 +1,10 @@
 import React from "react";
 import Services from "./Services";
+import ruler from '../../src/assets/icons/ruler-pen.png';
+import code from '../../src/assets/icons/code.png';
+import android from '../assets/icons/android.png';
+import react from '../../src/assets/icons/React-icon.png';
+
 
 const About = () => {
   const skills = [
