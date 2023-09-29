@@ -16,7 +16,7 @@ const Home = () => {
                         <p className='md:w-96'> designer, Front end developer, & Network & Cloud specialist. I create seamless web experiences for end-users.</p>
                         <div className='mt-5'>
                             <button className='btn transition-all duration-500 bg-primary py-2 px-4 rounded text-white hover:bg-white hover:text-primary'>About me</button> 
-                            <a href="https://drive.google.com/file/d/1tKBaFqh6RWfoncCWJ7mmfsItCmqw1J4i/view?usp=drive_link" target="_blank" className='btn outline py-1.5 px-6 rounded border-none ml-5 text-white '>Download Cv</a>
+                            <a href="https://drive.google.com/file/d/1YDvxoDGK2fBe1x55J1ZWxl2wN85BwHlp/view?usp=drive_link" target="_blank" className='btn outline py-1.5 px-6 rounded border-none ml-5 text-white '>Download Cv</a>
 
                         </div>
                     </div>
