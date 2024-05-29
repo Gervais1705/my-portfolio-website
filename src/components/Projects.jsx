@@ -7,11 +7,11 @@ import ecom from '../assets/projects/e-com.jpg';
 const Projects = () => {
   const projects = [
     {
-      title: "Movie Streaming",
+      title: "Music Streaming",
       description:
-        "A movie streaming app to search any movie, see rating and overview.",
+        "A music streaming app to upload and play any song.",
       photo: movie,
-      demoLink: "https://my-movie-app.gervais-design.com/",
+      demoLink: "https://my-music-steaming2024.netlify.app/",
       
     },
     {
