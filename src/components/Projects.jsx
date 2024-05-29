@@ -26,7 +26,7 @@ const Projects = () => {
       description:
         "This is a e-commerce app for shopping.",
       photo: ecom,
-       demoLink: "https://my-ecomapp.gervais-design.com/",
+       demoLink: "https://main--my-ecomapp.netlify.app/",
     },
   ];
   
