@@ -15,11 +15,11 @@ const Projects = () => {
       
     },
     {
-      title: "ToDo List",
+      title: "My Art blog website",
       description:
-        "A ToDo app  for entering and managing your daily tasks .",
+        "A blog demo for daily art & design articles .",
       photo: ToDo,
-       demoLink: "https://mytodo-list.gervais-design.com/",
+       demoLink: "https://my-blog2024.netlify.app/",
     },
     {
       title: "E-Commerce",
